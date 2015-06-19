@@ -36,7 +36,7 @@ var convert =function(font){
     result.glyphs = {};
 
     font.glyphs.forEach(function(glyph){
-        if (glyph.unicode !== undefined && (glyph.unicode >= 12288 && glyph.unicode <= 12528)) {
+        if (glyph.unicode !== undefined && (glyph.unicode >= 12288 && glyph.unicode <= 12543)) {
 
             var token = {};
             token.ha = Math.round(glyph.advanceWidth * scale);
